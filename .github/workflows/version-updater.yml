@@ -15,7 +15,7 @@ jobs:
       with:
         helmfile-version: "v0.145.4"
     - name: Generate file
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - run: |
         helmfile template --file cert-manager/helmfile.yaml > cert-manager/cert-manager.yaml
         git config user.name github-actions
