@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Setup helmfile
-      uses: mamezou-tech/setup-helmfile@v1.0.0
+      uses: mamezou-tech/setup-helmfile@v1.3.0
       with:
         helmfile-version: "v0.145.4"
     - name: Generate file
